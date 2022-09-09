@@ -4,6 +4,6 @@ interface ButtonProps {
   color?: 'primary' | 'secondary' | 'danger' | 'success';
 }
 
-export function Button(props: ButtonProps) {
-  return <button className={styles.button}>Enviar</button>
+export function Button({color = 'primary'}: ButtonProps) {
+  return <button className={`${styles.button} ${styles[color]}`}>Enviar</button>
 }
