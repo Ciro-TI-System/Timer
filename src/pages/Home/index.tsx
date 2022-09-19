@@ -20,17 +20,33 @@ const newCycleFormValidationSchema = zod.object({
     .min(5, 'O ciclo precisa ser de no mínimo 5 minutos.')
     .max(60, 'O ciclo precisa ser de no máximo 60 minutos.'),
 })
+// Usamos o 'interface' quando vamos definir o objeto de validação.
+// We use the 'interface' when we are going to define the validation object.
+
+/*
+  interface NewCycleFormData {
+  task: string
+  minutesAmount: number
+}
+*/
+
+// Utilizamos o 'type' quando criamos uma tipagem 'typescript' a partir de outra referência.
+// We use 'type' when creating a 'typescript' typing from another reference.
+
+type NewCycleFormData = zod.infer<typeof newCycleFormValidationSchema>
 
 export function Home() {
-  const { register, handleSubmit, watch, formState } = useForm({
+  const { register, handleSubmit, watch } = useForm<NewCycleFormData>({
     resolver: zodResolver(newCycleFormValidationSchema),
+    defaultValues: {
+      task: '',
+      minutesAmount: 0,
+    },
   })
 
-  function handleCreateNewCycle(data: any) {
+  function handleCreateNewCycle(data: NewCycleFormData) {
     console.log(data)
   }
-
-  console.log(formState.errors)
 
   const task = watch('task')
   const isSubmitDisabled = !task
@@ -59,9 +75,9 @@ export function Home() {
             type="number"
             id="minutesAmount"
             placeholder="00"
-            // step={5}
-            // min={5}
-            // max={60}
+            step={5}
+            min={5}
+            max={60}
             {...register('minutesAmount', { valueAsNumber: true })}
           />
 
