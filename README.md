@@ -16,6 +16,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS (Styled Components)
 - Vite
+- HookForm (Zod)
+- Biblioteca Javascript de datas e horas (date-fns)
 
 ## 💻 Projeto
 
