@@ -33,8 +33,8 @@ Após executar o comando acima, abra o seu navegador e acesse o endereço:
 
 http://127.0.0.1:5173/
 
-<img src="" alt=""/>
-<img src="" alt=""/>
+<img src="https://github.com/Ciro-TI-System/Timer/blob/47b37e3e4b933a789583e2a78d55bb5c057f56ce/src/assets/Timer-Home.jpg" alt="Home page print"/>
+<img src="https://github.com/Ciro-TI-System/Timer/blob/47b37e3e4b933a789583e2a78d55bb5c057f56ce/src/assets/Timer-History.jpg" alt="Print of the History page"/>
 
 ## :memo: Licença
 
