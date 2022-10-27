@@ -1,16 +1,20 @@
 # Creating a Timer using React
 
-<p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Lincense</a>
+<p
+align="center">
+  <a
+  href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a
+  href="#-projeto">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a
+  href="#memo-licença">License</a>
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- JavaScript
+- TypeScript
 - NodeJS
 - ReactJS
 - HTML
@@ -33,10 +37,14 @@ Esse projeto foi construído na aula de 'Criando SPAs com ReactJS' da Rocketseat
 
 Após executar o comando acima, abra o seu navegador e acesse o endereço:
 
-http://127.0.0.1:5173/
+`http://127.0.0.1:5173/`
 
-<img src="https://github.com/Ciro-TI-System/Timer/blob/47b37e3e4b933a789583e2a78d55bb5c057f56ce/src/assets/Timer-Home.jpg" alt="Home page print"/>
-<img src="https://github.com/Ciro-TI-System/Timer/blob/47b37e3e4b933a789583e2a78d55bb5c057f56ce/src/assets/Timer-History.jpg" alt="Print of the History page"/>
+<img
+src="https://github.com/Ciro-TI-System/Timer/blob/47b37e3e4b933a789583e2a78d55bb5c057f56ce/src/assets/Timer-Home.jpg"
+alt="Home page print"/>
+<img
+src="https://github.com/Ciro-TI-System/Timer/blob/47b37e3e4b933a789583e2a78d55bb5c057f56ce/src/assets/Timer-History.jpg"
+alt="Print of the History page"/>
 
 ## :memo: Licença
 
