@@ -10,7 +10,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- JavaScript
+- Typescript
 - NodeJS
 - ReactJS
 - HTML
