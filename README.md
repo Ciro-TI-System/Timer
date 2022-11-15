@@ -21,7 +21,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS (Styled Components)
 - Vite
 - HookForm (Zod)
-- Biblioteca Javascript de datas e horas (date-fns)
+- HookForm (resolvers)
+- date-fns (Biblioteca Javascript de datas e horas)
+- phosphor (React)
+- router (Dom_React)
+- immer (Cria a próxima árvore de estado imutável simplesmente modificando a árvore atual)
+
+
 
 ## 💻 Projeto
 
